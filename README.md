@@ -1,5 +1,4 @@
 
-![Uploading Screenshot from 2024-08-02 15-57-05.png…]()
 
 
 # Getting Started with Create React App
