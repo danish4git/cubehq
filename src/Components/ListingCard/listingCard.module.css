@@ -1,0 +1,27 @@
+.listCardContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: var(--textPrimary);
+  background-color: var(--backgroundPrimary);
+  border-radius: 8px;
+  padding: 16px;
+  gap: 8px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.isActive {
+  border: 1px solid var(--baseColor);
+}
+.name {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--textPrimary);
+}
+.details {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--textSecondary);
+  line-height: 20px;
+}

@@ -1,0 +1,23 @@
+.homePageParentContainer {
+  display: flex;
+  background-color: var(--backgroundPrimary);
+}
+
+.leftContainer {
+  width: 30%;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--backgroundSecondary);
+  gap: 12px;
+}
+
+.rightContainer {
+  width: 70%;
+  height: 100vh;
+}
+.rightContainer {
+  padding: 16px 32px;
+}
